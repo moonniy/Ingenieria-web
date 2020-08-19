@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title> {% if page.title %} {{ page.title }} | {% endif %} John Doe, Photographer </title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+ 
+  <div id="main">
+ 
+    <header>
+      <h1 class="titulo-h1">Ingenieria Web</h1>
+    <header>
+ 
+    <nav role="navigation">
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/actividades/">Actividades</a></li>
+        <li><a href="/proyecto">Proyecto Final</a></li>
+        <li><a href="/about">Acerca de</a></li>
+      </ul>
+    </nav>
+ 
+    {{ content }}
+ 
+    <footer>
+      <p>&copy; Monica Benitez 2020 | All Rights Reserved. </p>
+    </footer>
+ 
+  </div>
+</body>
+</html>

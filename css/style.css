@@ -1,0 +1,132 @@
+:root {
+    --fondo: white;
+    --contenedor: white;
+    --texto: #4f4f4f;
+    --color-secundario: #5f9ea0;
+    --content-entradas: #ececec;
+}
+body {
+  font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
+  background: var(--fondo);
+  color: var(--texto);
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+    color: var(--texto);
+  text-decoration: none;
+}
+ 
+a:hover {
+  color: var(--color-secundario);
+  text-decoration: none;
+}
+
+.img-banner{
+    width: 100%;
+}
+
+.img-content{
+    width: 100%;
+}
+
+#main {
+  width: 960px;
+  margin: 0 auto;
+  background: var(--contenedor);
+}
+header {
+  padding: 0 10px;
+  overflow: hidden;
+}
+h1 {
+  margin: 0;
+}
+
+.titulo-h1{
+    margin: 20px;
+}
+
+.titulo-content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul.entries{
+    list-style-type: none;
+}
+
+nav li a {
+  float: left;
+  margin: 5px 15px; 
+}
+
+.content {
+    padding: 10px;
+}
+
+.actividades{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+ 
+ul.entries li {
+  position: relative;
+  margin: 20px auto;
+  padding: 10px;
+  background: var(--content-entradas);
+  width: 80%;
+}
+ 
+ul.entries img {
+  width: 80%;
+}
+ 
+ul.entries li h3 {
+  bottom: -18px;
+  left: 17px;
+  font-size: 1.3em;
+  color: var(--texto);
+  margin: 10px;
+}
+
+ul.entries li h3:hover{
+    color: var(--color-secundario);
+}
+
+ul.entries a {
+  color: #ececec;
+}
+ul.entries a:hover {
+  color: #fff;
+}
+
+ul.about {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+ 
+footer {
+  font-size: 0.65em;
+  text-align: center;
+}

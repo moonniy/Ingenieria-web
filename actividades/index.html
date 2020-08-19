@@ -1,0 +1,21 @@
+---
+layout: default
+title: Actividades
+---
+ 
+<section class="content">
+  <h2 class="titulo-content">Actividades</h2>
+</section>
+ 
+<ul class="entries">
+  {% for post in site.posts %}
+ 
+  <li>
+    <a href="{{ post.url }}">
+      <h3>Actividad {{post.number}}: {{ post.title }}</h3>
+      <!--      <img src="{{ post.image }}" />    -->
+    </a>
+  </li>
+ 
+  {% endfor %}
+</ul>
