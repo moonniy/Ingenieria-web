@@ -18,8 +18,12 @@ ul {
   padding: 0;
 }
 a {
-    color: var(--texto);
+  color: var(--texto);
   text-decoration: none;
+}
+
+.link{
+  text-decoration: underline;
 }
  
 a:hover {
