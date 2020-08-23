@@ -97,7 +97,12 @@ nav li a {
     display: flex;
     justify-content: center;
 }
- 
+
+.image-about{
+    border-radius: 50%;
+    width: 200px;
+}
+
 ul.entries li {
   position: relative;
   margin: 20px auto;
