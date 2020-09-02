@@ -5,5 +5,6 @@ layout: default
 <h2 class="actividades content">Actividad {{page.number}}: {{page.title}}</h2>
 <p>Fecha: {{page.fecha}}</p> 
 {{ content }}
-
+{% if page.image %}
 <img class="img-content" src="{{site.url}}{{ page.image }}" />
+{% endif  %}
